@@ -1,6 +1,5 @@
 # Air Mouse
-
-An ESP32-based air mouse that allows the user to control the computer cursor through air using hand movements, eliminating the need of physical surface.
+Air Mouse is an ESP32-based wireless mouse that uses an MPU6050 motion sensor to control the computer cursor through hand movements. It uses push buttons to control left, right, up, and down scrolling. It also uses I2C communication between the ESP32 and MPU6050, with Bluetooth for wireless control. .
 
 ## Components
 - ESP32
@@ -8,13 +7,17 @@ An ESP32-based air mouse that allows the user to control the computer cursor thr
 - Push Buttons
 
 ## Features
-- Hand movement based cursor control
-- Wireless communication
-- I2C communication with MPU6050
+- Cursor control using hand movements through air
+- Wireless control using Bluetooth
+- Push buttons for left, right clicks, and up, down scrolling
+- Smooth and responsive cursor movement
+- Portable and compact design
+
 
 ## Technologies
+- ESP32
+- MPU6050 sensor
 - C/C++
 - Arduino IDE
-- ESP32
 - I2C
 - Bluetooth
